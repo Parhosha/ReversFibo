@@ -79,13 +79,13 @@ function createArrays(a) {
   for (let h = 0; h < numArr.length; h++) {}
   let result = creatFlipString(mapArr, numArr);
 
-  /* return document.write(
+  return document.write(
     '<a href="data:text/plain;charset=utf-8,%EF%BB%BF' +
       encodeURIComponent(result) +
       '" download="output.txt">output.txt</a>',
   );
-  */
-  return result; // for test
+
+  //return result; // for test
 }
 function readFile(input) {
   let file = input.files[0];
